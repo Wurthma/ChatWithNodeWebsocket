@@ -10,6 +10,9 @@ Basic chat example with node using NestJS and Websocket
 - Socket.io types only for dev enviroment:
     `npm i --save-dev @types/socket.io`
 
+- Servidor web para rodar a aplicação
+    `npm i -g http-server`
+
 ## Installation
 
 ```bash
@@ -28,6 +31,14 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+
+## Running http server
+
+- Acessar a pasta client:
+    `cd .\src\client\`
+
+- Rodar o HTTP server
+    `http-server -c1`
 
 ## Test
 
